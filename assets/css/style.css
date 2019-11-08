@@ -2,6 +2,10 @@
 
 /*-----------------------------------Colours */
 
+body{
+    background-color: #fafafa;
+}
+
 .bg-color-hero {
     background-color: red;
     color: #ffffff;
@@ -10,19 +14,39 @@
 /*-----------------------------------Background images */
 
 .ui-destination-ireland{
-    background: url("../images/homepage/ireland.jpg");
+    background: url("../images/homepage/ireland2.jpg");
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid white;
 }
 
 .ui-menu-destination-iceland{
     background: url("../images/homepage/iceland.jpg");
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid white;
 }
 
 .ui-menu-destination-morocco{
    background: url("../images/homepage/morocco.jpg");
+   text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid white;
 } 
 
 .ui-menu-destination-prague{
-    background: url("../images/homepage/prague.jpg");
+    background: url("../images/homepage/prague1.png");
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid white;
 }
 
 
@@ -39,8 +63,27 @@
 
 }
 
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    color:#525252;
+    font-family: "Roboto", sans-seriif;
+}
 
-/*-----------------------------------Heading */
+/*-----------------------------------Hover.css */
+
+/*background color is set in the before*/
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 300px;
+}
+
+
+
+/*-----------------------------------HeroHeading */
 
 .hero {
     background: url("../images/homepage/homeHero.jpg");
@@ -74,19 +117,17 @@
 
 
 
+/*-----------------------------------Homepage Section */
 
-/*-----------------------------------Hover.css */
 
-/*background color is set in the before*/
 
-.hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.2);
-    height: 300px;
+.homepageWelcomeMessage{
+    text-align: center;
+    margin: 50px 0px 20px 0px;
 }
 
 
-/*-----------------------------------Homepage Sections */
-
+/*Home Destination Section*/
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
@@ -112,7 +153,7 @@
 
 .menuitem {
     height: 300px;
-    /*profile image is 360 in total*/
+
     text-align: center;
     padding: 0;
 }
@@ -140,6 +181,13 @@
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+
+
+.featureTravelStorySection{
+    margin-top:50px;
+    margin-bottom:50px;
 }
 
 /*-----------------------------------About Me*/
