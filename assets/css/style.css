@@ -7,6 +7,25 @@
     color: #ffffff;
 }
 
+/*-----------------------------------Background images */
+
+.ui-destination-ireland{
+    background: url("../images/homepage/ireland.jpg");
+}
+
+.ui-menu-destination-iceland{
+    background: url("../images/homepage/iceland.jpg");
+}
+
+.ui-menu-destination-morocco{
+   background: url("../images/homepage/morocco.jpg");
+} 
+
+.ui-menu-destination-prague{
+    background: url("../images/homepage/prague.jpg");
+}
+
+
 /*-----------------------------------Special paddings/margins/text - General CSS area used more than once through out the site */
 
 .uppercase {
@@ -24,7 +43,7 @@
 /*-----------------------------------Heading */
 
 .hero {
-    background: url("../images/morning.jpg");
+    background: url("../images/homepage/homeHero.jpg");
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,9 +73,74 @@
 }
 
 
+
+
 /*-----------------------------------Hover.css */
 
-/*-----------------------------------Home */
+/*background color is set in the before*/
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 300px;
+}
+
+
+/*-----------------------------------Homepage Sections */
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.destinationcontainer {
+    font-size: 0;
+    
+}
+
+.mr-auto, .mx-auto {
+    margin: auto;
+    padding-top:40px;
+}
+
+#destinationNav {
+    margin: 0;
+}
+
+#destinationNav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 300px;
+    /*profile image is 360 in total*/
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    color: #ffffff;
+    text-decoration: none;
+    height: 300px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
 
 /*-----------------------------------About Me*/
 
@@ -104,3 +188,9 @@ footer {
 
 
 /*-----------------------------------Media Queries*/
+@media(max-width:992px){
+.hero-subtitle{
+    display:none;
+}
+}
+
