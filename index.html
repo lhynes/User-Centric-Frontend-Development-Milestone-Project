@@ -10,10 +10,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
-
-
-
     <!--access exrtenal links - fontAwesome cdn - https://www.bootstrapcdn.com/-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <!--CdN to access hover CSS-->
@@ -29,41 +25,28 @@
     <header>
         <!-- hero image and nagivation section-->
         <div class="row hero">
-            <!--nav-->
             <div class="col-md-12">
-                <!--Navbar - https://mdbootstrap.com/snippets/jquery/ascensus/145608-->
                 <nav class="navbar navbar-expand-lg navbar-dark primary-color">
                     <!-- Collapse button to ensure correct for mobile view -->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-                    <!-- Collapsible content -->
+                    <button class="navbar-toggler" onclick="hide()" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="basicExampleNav">
-
-                        <!-- Links -->
                         <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Home
-              <span class="sr-only">(current)</span>
-            </a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
                             </li>
 
-                            <!-- Dropdown for destinations -->
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Destinations</a>
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Destinations</a>
                                 <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink1">
                                     <a class="dropdown-item" href="ireland.html">Ireland</a>
                                     <a class="dropdown-item" href="iceland.html">Iceland</a>
                                     <a class="dropdown-item" href="morocco.html">Morocco</a>
-                                    <a class="dropdown-item" href="prague.html">Prague</a>
+                                    <a class="dropdown-item" href="croatia.html">Croatia</a>
                                 </div>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="aboutme.html">About Me</a>
                             </li>
-
-
                             <li class="nav-item">
                                 <a class="nav-link" href="travelstories.html">Travel Stories</a>
                             </li>
@@ -72,12 +55,10 @@
                             </li>
                         </ul>
                 </nav>
-
                 </div>
-                <!-- Tagline-->
                 <div class="col-md-12">
                     <div class="row no-gutters bg-color-name-title">
-                        <div class="col heading">
+                        <div class="col heading" id="heading">
                             <h1 class="hero-title">Live. Love. Travel.</h1>
                             <h2 class="hero-subtitle">Get out and explore the world!</h2>
                         </div>
@@ -89,52 +70,36 @@
 
     <!-- Main content section -->
     <section>
-        <div class="row">
+        <!-- <div class="row">
             <div class="col homepageWelcomeMessage">
                 <h1> Explore the world with me</h1>
                 <p>Take the jump and pick your next dream destination.
                 </p>
             </div>
-        </div>
-
-        <div class="row no-gutters">
-            <div class="col-md-2">
-
-            </div>
-            <div class="col-md-8">
+        </div>-->
+        <div class="row destinationContainer">
+            <div class="col">
                 <ul id="destinationNav" class="list-inline destinationcontainer">
-                    <li class="col-6 col-sm-3 ui-destination-ireland list-inline-item menuitem">
+                    <li class="col-12 col-sm-3 col-md-6 col-lg-3 ui-destination-ireland list-inline-item menuitem">
                         <a href="ireland.html" class="hvr-sweep-to-bottom"><span>Ireland</span></a>
                     </li>
 
-                    <li class="col-6 col-sm-3 ui-menu-destination-iceland list-inline-item menuitem">
+                    <li class="ccol-12 col-sm-3 col-md-6 col-lg-3 ui-menu-destination-iceland list-inline-item menuitem">
                         <a href="iceland.html" class="hvr-sweep-to-bottom"><span>Iceland</span></a>
                     </li>
 
-                    <li class="col-6 col-sm-3 ui-menu-destination-morocco list-inline-item menuitem">
+                    <li class="col-12 col-sm-3 col-md-6 col-lg-3 ui-menu-destination-morocco list-inline-item menuitem">
                         <a href="morocco.html" class="hvr-sweep-to-bottom"><span>Morocco</span></a>
                     </li>
-                    <li class="col-6 col-sm-3 ui-menu-destination-prague list-inline-item menuitem">
-                        <a href="prague.html" target="_blank" class="hvr-sweep-to-bottom"><span>Prague</span></a>
+                    <li class="col-12 col-sm-3 col-md-6 col-lg-3 ui-menu-destination-prague list-inline-item menuitem">
+                        <a href="croatia.html" target="_blank" class="hvr-sweep-to-bottom"><span>Croatia</span></a>
                     </li>
                 </ul>
             </div>
-            <div class="col-md-2"></div>
         </div>
-        <!--  <div class="row">
-            <div class="col homepageWelcomeMessage">
-                <h1> Featured Travel story</h1>
-                <p>Take the jump and pick your next dream destination.
-                </p>
-            </div>
-        </div>-->
 
 
-        <div class="row featureTravelStorySection">
-            <!--allow us to create a table structure so that our columns will remain the same height, regardless of content-->
-            <!--he row-table class specifies the use of a table whereas section-column specifies the use of a table cell, which will give us evenly sized columns in terms of height.-->
-
-
+        <!--<div class="row featureTravelStorySection">
             <div class="col-md-2 section-column">
                 <div class="row">
                     <div class="col-12">
@@ -144,38 +109,107 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="col-md-8 section-column">
-                <div class="row">
-                    <div class="col">
-                       <div class="card">
-                            <div class="card-body"> "On day three of the classic Inka Trail to Machu Picchu in Peru, we reached the summit of Abra de Runkuracay eager to take in the views around us. The day was unusually warm; wispy white clouds rolled in and out of the deep
-                                green valleys, aided by a gentle breeze. We scuttled up to the highest point we could find. Even though the clouds obstructed much of the view, I could feel the enormity of the valley we were perched above. I searched for
-                                snowy peaks in the distance, searched for the river far below. In that moment, I could do no more than revere my surroundings and feel that I was a part of something important. The history enveloped me, the sights burned
-                                themselves into my memory, the crisp mountain air filled my lungs. My overwhelmed senses were reminding me: This is why I travel." Story by <a href="https://hostelgeeks.com/machu-picchus-gigantic-aura-reminder-travel/"
-                                    target="_blank">Anna</a> </div>
-                        </div>
-              
+
+            <div class="col-sm-6">
+                <div class="card text-white bg-info mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Anna's Story</h5>
+                        <p class="card-text">"On day three of the classic Inka Trail to Machu Picchu in Peru, we reached the summit of Abra de Runkuracay eager to take in the views around us. The day was unusually warm; wispy white clouds rolled in and out of the deep green
+                            valleys, aided by a gentle breeze. We scuttled up to the highest point we could find. Even though the clouds obstructed much of the view, I could feel the enormity of the valley we were perched above. I searched for snowy peaks
+                            in the distance, searched for the river far below. In that moment, I could do no more than revere my surroundings and feel that I was a part of something important. The history enveloped me, the sights burned themselves into
+                            my memory, the crisp mountain air filled my lungs. My overwhelmed senses were reminding me: This is why I travel." Story by <a href="https://hostelgeeks.com/machu-picchus-gigantic-aura-reminder-travel/" target="_blank">Anna</a></p>
                     </div>
                 </div>
+            </div>
+        </div>-->
 
-            </div>-->
-                        <div class="col-sm-6">
-                            <div class="card text-white bg-info mb-4">
-                                <div class="card-body">
+        <!-- <div class="row">
+            <div class="col homepageWelcomeMessage">
+                <h1> Follow the Joureny</h1>
+                <p>Check out this months featured travel stories
+                </p>
+            </div>
+        </div> -->
+
+        <div class="row">
+            <div class="col homepageWelcomeMessage">
+
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Featured Project Row -->
+            <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                <div class="col-xl-4 col-lg-5">
+                    <div class="featured-text text-center text-lg-left">
+                        <h4>Featured Travel Story</h4>
+                        <p class="text-black-50 mb-0">Every month we select a new and exciting travel story to share with you.</p>
+                    </div>
+                </div>
+                <div class="col-xl-8 col-lg-7">
+                    <div class="card text-white bg-info mb-4">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 col-lg-4">
+                                    <div class="team-member">
+                                        <img class="mx-auto rounded-circle" src="./assets/images/homepage/prague1.png" alt="">
+                                        <h4>Anny Burke</h4>
+                                        <p class="text-muted">Travel Blogger</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-8">
                                     <h5 class="card-title">Anna's Story</h5>
                                     <p class="card-text">"On day three of the classic Inka Trail to Machu Picchu in Peru, we reached the summit of Abra de Runkuracay eager to take in the views around us. The day was unusually warm; wispy white clouds rolled in and out of
                                         the deep green valleys, aided by a gentle breeze. We scuttled up to the highest point we could find. Even though the clouds obstructed much of the view, I could feel the enormity of the valley we were perched above.
                                         I searched for snowy peaks in the distance, searched for the river far below. In that moment, I could do no more than revere my surroundings and feel that I was a part of something important. The history enveloped
-                                        me, the sights burned themselves into my memory, the crisp mountain air filled my lungs. My overwhelmed senses were reminding me: This is why I travel." Story by <a href="https://hostelgeeks.com/machu-picchus-gigantic-aura-reminder-travel/"
-                                            target="_blank">Anna</a></p>
+                                        me, the sights burned themselves into my memory, the crisp mountain air filled my lungs. My overwhelmed senses were reminding me: This is why I travel." Story by Anna.
+                                    </p>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
 
+                <!-- <div class="col-xl-8 col-lg-7">
+                    <img class="img-fluid mb-3 mb-lg-0" src="./assets/images/homepage/iceland.jpg" alt="">
+                </div>-->
+            </div>
 
-
-
-
+            <!-- Project One Row -->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="./assets/images/homepage/iceland.jpg" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white">Misty</h4>
+                                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project Two Row -->
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="./assets/images/homepage/iceland.jpg" alt="">
+                </div>
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white">Mountains</h4>
+                                <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+                                <hr class="d-none d-lg-block mb-0 mr-0">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!--Footer section-->
     <footer class="container-fluid">
