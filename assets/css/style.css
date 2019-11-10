@@ -48,12 +48,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .ui-menu-destination-iceland {
     background: /* overlay effect achieved with gradient */
     linear-gradient( rgba(0, 0, 0, 0.2),
     rgba(0, 0, 0, 0.2)),
     /* bottom, image */
-    url("../images/Iceland/ice9.jpg");
+    url("../images/Iceland/ice1.jpg");
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,6 +72,110 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.heroaboutmeimg {
+    background: /* overlay effect achieved with gradient */
+    linear-gradient( rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),
+    /* bottom, image */
+    url("../images/Iceland/ice7.jpg");
+    height: 600px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.heroirelandimg {
+    background: /* overlay effect achieved with gradient */
+    linear-gradient( rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),
+    /* bottom, image */
+    url("../images/Ireland/ire1.jpg");
+    height: 600px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+
+}
+
+.heromorimg {
+    background: /* overlay effect achieved with gradient */
+    linear-gradient( rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),
+    /* bottom, image */
+    url("../images/Morocco/mor2.jpg");
+    height: 600px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+
+}
+
+.heroiceimg {
+    background: /* overlay effect achieved with gradient */
+    linear-gradient( rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),
+    /* bottom, image */
+    url("../images/Iceland/ice3.jpg");
+    height: 600px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+
+}
+
+
+
+.herocroimg {
+    background: /* overlay effect achieved with gradient */
+    linear-gradient( rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),
+    /* bottom, image */
+    url("../images/Croatia/croatia2.jpg");
+    height: 600px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+
+}
+
+.herotravel {
+    background: /* overlay effect achieved with gradient */
+    linear-gradient( rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),
+    /* bottom, image */
+    url("../images/Iceland/ice9.jpg");
+    height: 600px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+
 
 
 /*-----------------------------------Special paddings/margins/text - General CSS area used more than once through out the site */
@@ -102,7 +207,7 @@ h4 {
 
 .col {
     padding-right: 0px;
-    padding-left:0px;
+    padding-left: 0px;
 }
 
 .container-fluid {
@@ -114,15 +219,15 @@ h4 {
 
 .row {
 
-    margin-right: 0px; 
-    margin-left: -0px; 
+    margin-right: 0px;
+    margin-left: -0px;
 }
 
 
 
-/*-----------------------------------HeroHeading */
+/*-----------------------------------Home page HeroHeading */
 
-.hero {
+.herohomeimg {
     background: /* overlay effect achieved with gradient */
     linear-gradient( rgba(0, 0, 0, 0.4),
     rgba(0, 0, 0, 0.4)),
@@ -341,8 +446,7 @@ h4 {
 /*background color is set in the before*/
 
 .hvr-fade {
-    background: rgba(0, 0, 0, 0.2);
-
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .hvr-fade:hover {
@@ -352,7 +456,6 @@ h4 {
 
 
 /*-----------------------------------About Me & contact form 1*/
-
 
 .contact-heading {
     font-family: "Exo", sans-serif;
@@ -448,7 +551,7 @@ button[type="info"] {
     display: inline-block;
     color: white;
     position: relative;
-    
+
 
 }
 
