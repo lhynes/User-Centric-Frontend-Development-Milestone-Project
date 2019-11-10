@@ -30,19 +30,7 @@ body {
     linear-gradient( rgba(0, 0, 0, 0.2),
     rgba(0, 0, 0, 0.2)),
     /* bottom, image */
-    url("../images/homepage/ireland2.jpg");
-    text-align: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.ui-menu-destination-iceland {
-    background: /* overlay effect achieved with gradient */
-    linear-gradient( rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2)),
-    /* bottom, image */
-    url("../images/homepage/iceland.jpg");
+    url("../images/Ireland/ire3.jpg");
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,19 +42,30 @@ body {
     linear-gradient( rgba(0, 0, 0, 0.2),
     rgba(0, 0, 0, 0.2)),
     /* bottom, image */
-    url("../images/homepage/morocco.jpg");
+    url("../images/Morocco/mor1.jpg");
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ui-menu-destination-iceland {
+    background: /* overlay effect achieved with gradient */
+    linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)),
+    /* bottom, image */
+    url("../images/Iceland/ice9.jpg");
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.ui-menu-destination-prague {
+.ui-menu-destination-croatia {
     background: /* overlay effect achieved with gradient */
     linear-gradient( rgba(0, 0, 0, 0.2),
     rgba(0, 0, 0, 0.2)),
     /* bottom, image */
-    url("../images/homepage/prague1.png");
+    url("../images/Croatia/croatia6.jpg");
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
