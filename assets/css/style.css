@@ -317,27 +317,12 @@ h4 {
 
 /*Styling for the travel story section*/
 
-.featureTravelStorySection {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.featured-text {
-    margin-bottom: 20px;
-}
-
-
-.story-author {
-    text-align: center;
-}
-
 .story-author h4 {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
     color: #fafafa;
 }
-
 
 .story-author p {
     margin-top: 0;
@@ -349,13 +334,6 @@ h4 {
     height: 200px;
     border-radius: 50%;
 }
-
-
-.call2action {
-    text-align: right;
-    margin-top: 20px;
-}
-
 
 
 
@@ -376,9 +354,6 @@ h4 {
 
 /*-----------------------------------About Me & contact form 1*/
 
-.buttonContainer {
-    text-align: center;
-}
 
 .contact-heading {
     font-family: "Exo", sans-serif;
