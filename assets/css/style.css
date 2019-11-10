@@ -123,10 +123,19 @@ h4 {
     padding-left:0px;
 }
 
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
 
-.container{
-    padding-right:0px;
 }
+
+.row {
+
+    margin-right: 0px; 
+    margin-left: -0px; 
+}
+
 
 
 /*-----------------------------------HeroHeading */
@@ -545,7 +554,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background-color: blue;
+    background-color: #19717d;
 }
 
 
