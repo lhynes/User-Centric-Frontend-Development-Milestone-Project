@@ -2,7 +2,7 @@
 
 /*-----------------------------------Colours */
 
-body{
+body {
     background-color: #fafafa;
 }
 
@@ -12,57 +12,61 @@ body{
 }
 
 .bg-black {
-  background-color: #161616 !important;
+    background-color: #161616 !important;
+}
+
+.bg-story {
+    background: rgb(29, 149, 166);
+    background: -moz-linear-gradient(90deg, rgba(29, 149, 166, 1) 0%, rgba(21, 170, 191, 1) 51%, rgba(29, 176, 196, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(29, 149, 166, 1) 0%, rgba(21, 170, 191, 1) 51%, rgba(29, 176, 196, 1) 100%);
+    background: linear-gradient(90deg, rgba(29, 149, 166, 1) 0%, rgba(21, 170, 191, 1) 51%, rgba(29, 176, 196, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1d95a6", endColorstr="#1db0c4", GradientType=1);
 }
 
 /*-----------------------------------Background images */
 
-.ui-destination-ireland{
-    background:   /* overlay effect achieved with gradient */ 
-    linear-gradient(
-      rgba(0, 0, 0, 0.2), 
-      rgba(0, 0, 0, 0.2)
-    ),
-    /* bottom, image */url("../images/homepage/ireland2.jpg");
+.ui-destination-ireland {
+    background: /* overlay effect achieved with gradient */
+    linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)),
+    /* bottom, image */
+    url("../images/homepage/ireland2.jpg");
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.ui-menu-destination-iceland{
-    background:   /* overlay effect achieved with gradient */ 
-    linear-gradient(
-      rgba(0, 0, 0, 0.2), 
-      rgba(0, 0, 0, 0.2)
-    ),
-    /* bottom, image */url("../images/homepage/iceland.jpg");
+.ui-menu-destination-iceland {
+    background: /* overlay effect achieved with gradient */
+    linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)),
+    /* bottom, image */
+    url("../images/homepage/iceland.jpg");
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.ui-menu-destination-morocco{
-   background:   /* overlay effect achieved with gradient */ 
-    linear-gradient(
-      rgba(0, 0, 0, 0.2), 
-      rgba(0, 0, 0, 0.2)
-    ),
-    /* bottom, image */url("../images/homepage/morocco.jpg");
-   text-align: center;
+.ui-menu-destination-morocco {
+    background: /* overlay effect achieved with gradient */
+    linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)),
+    /* bottom, image */
+    url("../images/homepage/morocco.jpg");
+    text-align: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-} 
+}
 
-.ui-menu-destination-prague{
-    background:   /* overlay effect achieved with gradient */ 
-    linear-gradient(
-      rgba(0, 0, 0, 0.2), 
-      rgba(0, 0, 0, 0.2)
-    ),
-    /* bottom, image */url("../images/homepage/prague1.png");
+.ui-menu-destination-prague {
+    background: /* overlay effect achieved with gradient */
+    linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)),
+    /* bottom, image */
+    url("../images/homepage/prague1.png");
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
@@ -88,19 +92,39 @@ h2,
 h3,
 h4 {
     margin: 0;
-    color:#525252;
+    color: #525252;
     font-family: "Roboto", sans-seriif;
 }
+
+.marginAuto {
+    margin: auto;
+}
+
+.textjustified {
+    text-align: justify;
+}
+.textcenter{
+    text-align:center;
+}
+
+.padding20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.margin20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
 
 /*-----------------------------------HeroHeading */
 
 .hero {
-    background: 
-    /* overlay effect achieved with gradient */ 
-    linear-gradient(
-      rgba(0, 0, 0, 0.4), 
-      rgba(0, 0, 0, 0.4)
-    ),
+    background: /* overlay effect achieved with gradient */
+    linear-gradient( rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)),
     /* bottom, image */
     url("../images/homepage/homeHero.jpg");
     height: 600px;
@@ -133,20 +157,19 @@ h4 {
 
 /*------------------------------------Navigation */
 
-
-
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255,255,255,.7);
+    color: rgba(255, 255, 255, .7);
     font-size: 20px;
     padding: 0px 43px;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: rgba(255,255,255);
+    color: rgba(255, 255, 255);
 }
 
 
 /*Dropdown*/
+
 .dropdown-menu {
     position: absolute;
     top: 100%;
@@ -178,7 +201,7 @@ h4 {
     white-space: nowrap;
     background-color: transparent;
     border: 0;
-    color: rgba(255,255,255,.7);
+    color: rgba(255, 255, 255, .7);
     font-size: 20px;
     padding: 0px 43px;
 }
@@ -198,30 +221,27 @@ h4 {
 
 
 /*mobile navigation*/
+
 #basicExampleNav {
     text-align: left;
 }
 
-.mr-auto, .mx-auto {
+.mr-auto,
+.mx-auto {
     margin: 0;
     padding-top: 20px !important;
 }
 
-
+.navbar {
+    z-index: 999;
+}
 
 
 
 /*-----------------------------------Homepage Section */
 
-
-
-.homepageWelcomeMessage{
-    text-align: center;
-    margin: 50px 0px 20px 0px;
-}
-
-
 /*Home Destination Section*/
+
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
@@ -230,9 +250,10 @@ h4 {
     font-size: 0;
 }
 
-.mr-auto, .mx-auto {
+.mr-auto,
+.mx-auto {
     margin: auto;
-    padding-top:40px;
+    padding-top: 40px;
 }
 
 #destinationNav {
@@ -276,39 +297,65 @@ h4 {
 }
 
 
-.featureTravelStorySection{
-    margin-top:50px;
-    margin-bottom:50px;
+.btn-primary {
+    color: #fafafa;
+    background-color: #19717d;
+    border-color: #19717d;
 }
+
+.btn-primary:hover {
+    color: #fafafa;
+    background-color: #525252;
+    border-color: #ffffff;
+}
+
 
 
 /*Styling for the travel story section*/
-.team-member {
-  text-align: center;
-  img {
-    width: 225px;
-    height: 225px;
-    border: 7px solid fade-out($black, 0.9);
-    border-radius: 225px;
-  }
-  h4 {
+
+.featureTravelStorySection {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.featured-text {
+    margin-bottom: 20px;
+}
+
+
+.story-author {
+    text-align: center;
+}
+
+.story-author h4 {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
-  }
-  p {
+    color: #fafafa;
+}
+
+
+.story-author p {
     margin-top: 0;
-  }
+    color: #fafafa;
 }
 
-.call2action{
-  text-align:right;  
+.story-author img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+.call2action {
+    text-align: right;
+    margin-top: 20px;
 }
 
 
 
 
-/*-----------------------------------Hover.css */
+/*--------------------------------------Hover.css */
 
 /*background color is set in the before*/
 
@@ -321,34 +368,130 @@ h4 {
 
 /*-----------------------------------About Me & contact form 1*/
 
-.buttonContainer{
+.buttonContainer {
     text-align: right;
+
+}
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="info"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+}
+
+.center-form input {
+    margin-bottom: 20px;
+}
+
+
+
+/*---------------------------------------Destinations*/
+
+.destinationQuote {
+    text-align: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.destinationMessage {
+    text-align: center;
+    margin: 10px auto;
+    max-width: 800px;
+    text-align: justify;
+}
+
+
+/***** destination features *****/
+
+.services-container.section-container {
+    margin-bottom: 30px;
+}
+
+.services-box {
+    padding-top: 30px;
+    text-align: left;
+}
+
+.services-box .services-box-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+
+    background: rgb(29, 149, 166);
+    background: -moz-linear-gradient(90deg, rgba(29, 149, 166, 1) 0%, rgba(21, 170, 191, 1) 51%, rgba(29, 176, 196, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(29, 149, 166, 1) 0%, rgba(21, 170, 191, 1) 51%, rgba(29, 176, 196, 1) 100%);
+    background: linear-gradient(90deg, rgba(29, 149, 166, 1) 0%, rgba(21, 170, 191, 1) 51%, rgba(29, 176, 196, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1d95a6", endColorstr="#1db0c4", GradientType=1);
+
+    font-size: 40px;
+    color: #fff;
+    line-height: 80px;
+    text-align: center;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -o-transition: all .6s;
+    -moz-transition: all .6s;
+    -webkit-transition: all .6s;
+    -ms-transition: all .6s;
+    transition: all .6s;
+}
+
+.services-box h3 {
+    margin-top: 0;
+    padding: 0 0 10px 0;
+}
+
+
+.des-item {
+    width: 7em;
+    height: 2em;
+    text-align: center;
+    line-height: 2em;
+    border-radius: 1em;
+    background: rgb(29, 149, 166);
+    margin: 0.5em 1em;
+    display: inline-block;
+    color: white;
+    position: relative;
+     left: -1em;
+
+}
+.des-item a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.des-item body {
+    font-family: sans-serif;
+    padding: 2em;
+}
+
+.des-item:hover {
+    background: #525252;
+    border-color: rgb(29, 149, 166);
+}
+
+
+.otherdescol{
+    margin:auto;
+    text-align:center;
     
 }
 
-.contact-heading{
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top:25px;
-    margin-bottom:50px;
-}
-
-.center-form{
-    padding-top:10px;
-    margin:0 auto; /* 0 top and bottom auto on left and right will center it*/
-    max-width:70%;
-}
-
-button[type="submit"]{
-    margin-top:15px;
-    margin-bottom: 20px;
-    color:#fafafa;
-    background-color: #e84610
-}
-
-
-
-/*-----------------------------------Destinations*/
 
 /*-----------------------------------Travel Stories*/
 
@@ -392,23 +535,22 @@ footer {
 
 
 /*-----------------------------------Media Queries*/
-@media(max-width:992px){
-.hero-subtitle{
-    display:none;
-}
-.hero {
-    height:300px;
-}
+
+@media(max-width:992px) {
+    .hero-subtitle {
+        display: none;
+    }
+    .hero {
+        height: 400px;
+    }
 
 
 }
 
 
-@media only screen and (max-width: 600px){
+/*@media only screen and (max-width: 600px) {
     .navbar {
-    padding: 1.5rem 1rem;
+        padding: 1.5rem 1rem;
+    }
 }
-    
-}
-
-
+*/
