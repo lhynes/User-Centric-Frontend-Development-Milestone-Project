@@ -11,42 +11,62 @@ body{
     color: #ffffff;
 }
 
+.bg-black {
+  background-color: #161616 !important;
+}
+
 /*-----------------------------------Background images */
 
 .ui-destination-ireland{
-    background: url("../images/homepage/ireland2.jpg");
+    background:   /* overlay effect achieved with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2), 
+      rgba(0, 0, 0, 0.2)
+    ),
+    /* bottom, image */url("../images/homepage/ireland2.jpg");
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid white;
 }
 
 .ui-menu-destination-iceland{
-    background: url("../images/homepage/iceland.jpg");
+    background:   /* overlay effect achieved with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2), 
+      rgba(0, 0, 0, 0.2)
+    ),
+    /* bottom, image */url("../images/homepage/iceland.jpg");
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid white;
 }
 
 .ui-menu-destination-morocco{
-   background: url("../images/homepage/morocco.jpg");
+   background:   /* overlay effect achieved with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2), 
+      rgba(0, 0, 0, 0.2)
+    ),
+    /* bottom, image */url("../images/homepage/morocco.jpg");
    text-align: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid white;
 } 
 
 .ui-menu-destination-prague{
-    background: url("../images/homepage/prague1.png");
+    background:   /* overlay effect achieved with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2), 
+      rgba(0, 0, 0, 0.2)
+    ),
+    /* bottom, image */url("../images/homepage/prague1.png");
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid white;
 }
 
 
@@ -72,37 +92,32 @@ h4 {
     font-family: "Roboto", sans-seriif;
 }
 
-/*-----------------------------------Hover.css */
-
-/*background color is set in the before*/
-
-.hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.2);
-    height: 300px;
-}
-
-
-
 /*-----------------------------------HeroHeading */
 
 .hero {
-    background: url("../images/homepage/homeHero.jpg");
+    background: 
+    /* overlay effect achieved with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ),
+    /* bottom, image */
+    url("../images/homepage/homeHero.jpg");
+    height: 600px;
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 500px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
-
 }
+
 
 .hero-title {
     font-family: "Roboto", sans-seriif;
     font-weight: 300;
-    font-size: 46px;
-    margin-top: 50px;
+    font-size: 50px;
     color: #ffffff;
 }
 
@@ -113,7 +128,86 @@ h4 {
     margin-top: 20px;
     margin-bottom: 90px;
     color: #ffffff;
+
 }
+
+/*------------------------------------Navigation */
+
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.7);
+    font-size: 20px;
+    padding: 0px 43px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255,255,255);
+}
+
+
+/*Dropdown*/
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: left;
+    list-style: none;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 0;
+    border-radius: .25rem;
+}
+
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 4.5rem;
+    clear: both;
+    font-weight: 400;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    color: rgba(255,255,255,.7);
+    font-size: 20px;
+    padding: 0px 43px;
+}
+
+.dropdown-item:hover {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 4.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+
+/*mobile navigation*/
+#basicExampleNav {
+    text-align: left;
+}
+
+.mr-auto, .mx-auto {
+    margin: 0;
+    padding-top: 20px !important;
+}
+
+
 
 
 
@@ -134,7 +228,6 @@ h4 {
 
 .destinationcontainer {
     font-size: 0;
-    
 }
 
 .mr-auto, .mx-auto {
@@ -152,8 +245,7 @@ h4 {
 }
 
 .menuitem {
-    height: 300px;
-
+    height: 400px;
     text-align: center;
     padding: 0;
 }
@@ -162,7 +254,7 @@ h4 {
     width: 100%;
     color: #ffffff;
     text-decoration: none;
-    height: 300px;
+    height: 400px;
 }
 
 .menuitem a i {
@@ -184,13 +276,77 @@ h4 {
 }
 
 
-
 .featureTravelStorySection{
     margin-top:50px;
     margin-bottom:50px;
 }
 
-/*-----------------------------------About Me*/
+
+/*Styling for the travel story section*/
+.team-member {
+  text-align: center;
+  img {
+    width: 225px;
+    height: 225px;
+    border: 7px solid fade-out($black, 0.9);
+    border-radius: 225px;
+  }
+  h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+  }
+  p {
+    margin-top: 0;
+  }
+}
+
+.call2action{
+  text-align:right;  
+}
+
+
+
+
+/*-----------------------------------Hover.css */
+
+/*background color is set in the before*/
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 400px;
+}
+
+
+
+/*-----------------------------------About Me & contact form 1*/
+
+.buttonContainer{
+    text-align: right;
+    
+}
+
+.contact-heading{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top:25px;
+    margin-bottom:50px;
+}
+
+.center-form{
+    padding-top:10px;
+    margin:0 auto; /* 0 top and bottom auto on left and right will center it*/
+    max-width:70%;
+}
+
+button[type="submit"]{
+    margin-top:15px;
+    margin-bottom: 20px;
+    color:#fafafa;
+    background-color: #e84610
+}
+
+
 
 /*-----------------------------------Destinations*/
 
@@ -240,5 +396,19 @@ footer {
 .hero-subtitle{
     display:none;
 }
+.hero {
+    height:300px;
 }
+
+
+}
+
+
+@media only screen and (max-width: 600px){
+    .navbar {
+    padding: 1.5rem 1rem;
+}
+    
+}
+
 
