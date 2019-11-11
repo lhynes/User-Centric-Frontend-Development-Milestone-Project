@@ -128,11 +128,16 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
+- The text for the featured story content on the homepage was copied  [Hostel Geeks](https://hostelgeeks.com/machu-picchus-gigantic-aura-reminder-travel/)
+
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The here images used on the site were all photos taken by me. 
+- The photo of "Anna" for the featured story came from a [Bootstrap Template](https://blackrockdigital.github.io/startbootstrap-agency/img/team/1.jpg)
+- The six images used for travel stories came from a site called [Hostel Geeks](https://hostelgeeks.com/?s=travel+stories)
 
-### Acknowledgements
 
-- I received inspiration for this project from X
+### Inspiration
+
+- I received inspiration for this project from my personal travels and passion to explore more.
