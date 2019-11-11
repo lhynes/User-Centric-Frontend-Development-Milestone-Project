@@ -1,14 +1,12 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+# Live.Love.Travel.
+Code Institute -  User Centric Frontend Development Milestone Project
+
+Welcome to my travel website where I showcase destinations from around the world along with some exciting and engaging stories from other explorers. 
+On the site four places are highlighted and I share information on topics such as food, transport, accommodation, culture, climate and safety for each location.  
 
 
-Hi there! Welcome to AWS Cloud9!
+## Demo
+Explore the site [here](https://lhynes.github.io/User-Centric-Frontend-Development-Milestone-Project/).
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
-
-Happy coding!
+![Desktop View](raw.githubusercontent.com/lhynes/User-Centric-Frontend-Development-Milestone-Project/blob/master/assets/images/desktopimage.png
+"Desktop View")
