@@ -8,6 +8,7 @@ On the site four places are highlighted and I share information on topics such a
 ## Demo
 Explore the site [here](https://lhynes.github.io/User-Centric-Frontend-Development-Milestone-Project/).
 
+Desktop View
 ![Desktop View](https://raw.githubusercontent.com/lhynes/User-Centric-Frontend-Development-Milestone-Project/master/assets/images/desktopimage.png
 "Desktop View")
 
