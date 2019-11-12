@@ -209,7 +209,6 @@ h4 {
 
 /*-----------------------------------Home page HeroHeading */
 
-
 .hero-title {
     font-family: "Roboto", sans-seriif;
     font-weight: 300;
@@ -247,7 +246,7 @@ h4 {
     float: left;
     min-width: 10rem;
     padding: .5rem 0;
-   margin: .125rem 0 0;
+    margin: .125rem 0 0;
     font-size: 1rem;
     color: #ffffff;
     text-align: left;
@@ -446,17 +445,8 @@ button[type="info"] {
 
 /*---------------------------------------Destinations*/
 
-.destinationQuote {
-    text-align: center;
-    margin-top: 50px;
-    text-align: center;
-}
-
 .destinationMessage {
-    text-align: center;
-    margin: 10px auto;
-    max-width: 800px;
-    text-align: justify;
+    max-width: 70%;
 }
 
 
@@ -586,10 +576,12 @@ footer {
     .heromorimg,
     .heroiceimg,
     .herocroimg,
-    .herotravel
-    {
+    .herotravel {
         height: 400px;
     }
 
+    .destinationMessage {
+        max-width: 90%;
+    }
 
 }
