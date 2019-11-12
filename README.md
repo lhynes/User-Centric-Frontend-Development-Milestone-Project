@@ -86,7 +86,7 @@ This site currently contains the following features:
 In the future I would like the featured travel story to by populated dynamicaly from the collection of stories submitted via the website. 
 
 
-## Testing
+## Testing To be completed
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. 
 Essentially, in this part you will want to go over all of your user stories from the UX section and ensure 
@@ -98,7 +98,7 @@ My user stories
 
 
 
-**Responsiiveness TO BE COMPLETED**
+**Responsiveness TO BE COMPLETED**
 
 
 In addition, you should mention in this section how your project
@@ -130,11 +130,6 @@ If a site visitor is interested in contacting me or sharing a story they can fil
     5. Try to submit the form with all inputs valid and verify that a success message appears.
 
 
-
-**External Links**
-
-All external links on the travel stories page open in a new tab using 'target="_blank"'. 
-
 **Page Links**
  
 All links have been manually tested to ensure that none of them are broken and they point to the correct destination.
@@ -145,21 +140,22 @@ All links have been manually tested to ensure that none of them are broken and t
 All images have an assigned "alt" test attributed to them. 
 
 
-**Bugs or Problems To BE COMPLETED  ???**
-
-You should also mention in this section any interesting bugs or problems 
-you discovered during your testing, even if you haven't addressed them yet.
-
 
 ## Deployment
 
 
 This site is hosted using **GitHub pages** and deployed directly from the master branch.
+To set up GitHub pages check out the following steps: 
+- In GitHub, navigate to your <username>.github.io repository and click **Settings**.
+- Within Settings, navigate to the **Source** section within the **Github Pages** section. 
+- From the dropdown menu, select **master branch** and then click **Save**.
+
 The sites landing page is  named `index.html` and this ensured thte site will deploy correctly on GitHub pages.
 The deployed site version is updated automatically after new commits to the master branch. 
 
 
 **Local deployment** 
+
 To run locally, you can clone this repository directly into the editor of your choice by pasting 
 `git clone https://github.com/lhynes/User-Centric-Frontend-Development-Milestone-Project.git` into your terminal. 
 
@@ -172,14 +168,18 @@ To cut ties with this GitHub repository, type `git remote rm origin` into the te
 ### Content
 - The text for the featured story content on the homepage was copied  [Hostel Geeks](https://hostelgeeks.com/machu-picchus-gigantic-aura-reminder-travel/)
 
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
 - The here images used on the site were all photos taken by me. 
 - The photo of "Anna" for the featured story came from a [Bootstrap Template](https://blackrockdigital.github.io/startbootstrap-agency/img/team/1.jpg)
-- The six images used for travel stories came from a site called [Hostel Geeks](https://hostelgeeks.com/?s=travel+stories)
-
+- The six images used for travel stories came from a site called [Hostel Geeks](https://hostelgeeks.com/?s=travel+stories) links for each below. 
+    - [Nepal](https://hostelgeeks.com/best-hostels-in-kathmandu-nepal/)
+    - [Laos](https://hostelgeeks.com/best-hostels-in-luang-prabang-laos/)
+    - [Jaipur](https://hostelgeeks.com/best-hostels-in-jaipur-india/)
+    - [Tokyo](https://hostelgeeks.com/tokyo-regretting-feeling-daring-travelstory/)
+    - [Santorini](https://hostelgeeks.com/49-santorini-photos-pictures/)
+    - [Andora](https://hostelgeeks.com/tarter-mountain-hostel-andorra-5starhostel/)
 
 ### Inspiration
 
-- I received inspiration for this project from my personal travels and passion to explore more.
+- I received inspiration for this project from my personal travels and passion to explore more and connect with other people. 
