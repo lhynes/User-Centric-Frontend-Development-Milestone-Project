@@ -95,7 +95,11 @@ straightforward way for the users to achieve their goals.
 
 
 My user stories 
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
 **Responsiveness TO BE COMPLETED**
@@ -139,7 +143,8 @@ All links have been manually tested to ensure that none of them are broken and t
 
 All images have an assigned "alt" test attributed to them. 
 
-
+**Bugs and  problems**
+- large high quality images used an [online image compressor](https://compressjpeg.com/)) to compress images and enhance loading time. 
 
 ## Deployment
 
