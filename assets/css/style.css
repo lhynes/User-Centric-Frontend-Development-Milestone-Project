@@ -6,11 +6,6 @@ body {
     background-color: #fafafa;
 }
 
-.bg-color-hero {
-    background-color: red;
-    color: #ffffff;
-}
-
 .bg-black {
     background-color: #161616 !important;
 }
@@ -23,9 +18,42 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1d95a6", endColorstr="#1db0c4", GradientType=1);
 }
 
-/*-----------------------------------Background images */
+/*-----------------------------------Background images - Homepage and hero images */
 
-.ui-destination {
+.ui-destination-ireland {
+    background: linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)),
+    url("../images/homepage/irelandhomepage.jpg");
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ui-destination-morocco {
+    background: linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)),
+    url("../images/homepage/moroccohome.jpg");
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ui-destination-iceland {
+    background: linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)),
+    url("../images/homepage/icelandhomepage.jpg");
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ui-destination-croatia {
+    background: linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)),
+    url("../images/homepage/croatiahome.jpg");
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,37 +61,10 @@ body {
 }
 
 
-.des-ireland {
-    background: linear-gradient( rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2)),
-    url("../images/Ireland/ire3.jpg");
-}
-
-.des-morocco {
-    background: linear-gradient( rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2)),
-    url("../images/Morocco/mor1.jpg");
-}
-
-.des-iceland {
-    background: /* overlay effect achieved with gradient */
-    linear-gradient( rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2)),
-    /* bottom, image */
-    url("../images/Iceland/ice1.jpg");
-}
-
-.des-croatia {
-    background: /* overlay effect achieved with gradient */
-    linear-gradient( rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2)),
-    /* bottom, image */
-    url("../images/Croatia/croatia6.jpg");
-
-}
-
-
-.hero {
+.herohomeimg {
+    background: linear-gradient( rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),
+    url("../images/homepage/homepagehero.jpg");
     height: 600px;
     text-align: center;
     background-position: center;
@@ -74,53 +75,89 @@ body {
     -webkit-transition: all .5s ease-in-out;
 }
 
-.herohomeimg {
-    background:
-    linear-gradient( rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)),
-    url("../images/homepage/homepagehero.jpg");
-}
-
 
 .heroaboutmeimg {
-    background:
-    linear-gradient( rgba(0, 0, 0, 0.5),
+    background: linear-gradient( rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
     url("../images/aboutme/abouthero.jpg");
+    height: 600px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .heroirelandimg {
-    background:
-    linear-gradient( rgba(0, 0, 0, 0.5),
+    background: linear-gradient( rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
-    url("../images/ireland/irelanddestinationpage.jpg");
+    url("../images/ireland/irelanddestination.jpg");
+    height: 600px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .heromorimg {
     background: linear-gradient( rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
-    url("../images/morocco/moroccodestinationpage.jpg");
+    url("../images/morocco/moroccodestination.jpg");
+    height: 600px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .heroiceimg {
-    background:
-    linear-gradient( rgba(0, 0, 0, 0.5),
+    background: linear-gradient( rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
     url("../images/iceland/icelanddestinationpage.jpg");
+    height: 600px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .herocroimg {
-    background:
-    linear-gradient( rgba(0, 0, 0, 0.5),
+    background: linear-gradient( rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
     url("../images/croatia/croatiadestinationpage.jpg");
+    height: 600px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .herotravel {
-    background:
-    linear-gradient( rgba(0, 0, 0, 0.5),
+    background: linear-gradient( rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
-    url("../images/travestories/travelstories.jpg");
+    url("../images/travelstories/travelstories.jpg");
+    height: 600px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 
@@ -136,7 +173,6 @@ body {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     color: #fafafa;
-
 }
 
 h1,
@@ -162,11 +198,9 @@ h4 {
     width: 100%;
     padding-right: 0px;
     padding-left: 0px;
-
 }
 
 .row {
-
     margin-right: 0px;
     margin-left: -0px;
 }
@@ -174,22 +208,6 @@ h4 {
 
 
 /*-----------------------------------Home page HeroHeading */
-
-.herohomeimg {
-    background: /* overlay effect achieved with gradient */
-    linear-gradient( rgba(0, 0, 0, 0.4),
-    rgba(0, 0, 0, 0.4)),
-    /* bottom, image */
-    url("../images/homepage/homeHero.jpg");
-    height: 600px;
-    text-align: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
 
 
 .hero-title {
@@ -206,7 +224,6 @@ h4 {
     margin-top: 20px;
     margin-bottom: 90px;
     color: #ffffff;
-
 }
 
 /*------------------------------------Navigation */
@@ -221,9 +238,6 @@ h4 {
     color: rgba(255, 255, 255);
 }
 
-
-/*Dropdown*/
-
 .dropdown-menu {
     position: absolute;
     top: 100%;
@@ -233,7 +247,7 @@ h4 {
     float: left;
     min-width: 10rem;
     padding: .5rem 0;
-    margin: .125rem 0 0;
+   margin: .125rem 0 0;
     font-size: 1rem;
     color: #ffffff;
     text-align: left;
@@ -461,13 +475,11 @@ button[type="info"] {
     width: 80px;
     height: 80px;
     margin: 0 auto;
-
     background: rgb(29, 149, 166);
     background: -moz-linear-gradient(90deg, rgba(29, 149, 166, 1) 0%, rgba(21, 170, 191, 1) 51%, rgba(29, 176, 196, 1) 100%);
     background: -webkit-linear-gradient(90deg, rgba(29, 149, 166, 1) 0%, rgba(21, 170, 191, 1) 51%, rgba(29, 176, 196, 1) 100%);
     background: linear-gradient(90deg, rgba(29, 149, 166, 1) 0%, rgba(21, 170, 191, 1) 51%, rgba(29, 176, 196, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1d95a6", endColorstr="#1db0c4", GradientType=1);
-
     font-size: 40px;
     color: #fff;
     line-height: 80px;
@@ -499,8 +511,6 @@ button[type="info"] {
     display: inline-block;
     color: white;
     position: relative;
-
-
 }
 
 .des-item a {
@@ -570,7 +580,14 @@ footer {
     .hero-subtitle {
         display: none;
     }
-    .hero {
+    .herohomeimg,
+    .heroaboutmeimg,
+    .heroirelandimg,
+    .heromorimg,
+    .heroiceimg,
+    .herocroimg,
+    .herotravel
+    {
         height: 400px;
     }
 
