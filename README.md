@@ -94,14 +94,6 @@ that they all work as intended, with the project providing an easy and
 straightforward way for the users to achieve their goals.
 
 
-The employer and recruiter user story achieved the intended outcome of providing them with a showcase of myself and my work. 
-In the about me section, they can read a bit about my background, and if they're viewing on a desktop, the background of this section is a photo of me. 
-They are able to see my showcased projects via the project cards in the "Work" section. 
-They can view both the live version and the GitHub repository by clicking on the Font Awesome icons. 
-They are also able to view my social media profiles via clicking on the icons in the footer. 
-They are also able to download my CV by either clicking on CV in the navbar dropdown, 
-or by clicking on the document icon in the footer. 
-
 My user stories 
 
 
