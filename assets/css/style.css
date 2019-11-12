@@ -107,10 +107,9 @@ body {
 }
 
 .heromorimg {
-    background: /* overlay effect achieved with gradient */
+    background: 
     linear-gradient( rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
-    /* bottom, image */
     url("../images/Morocco/mor2.jpg");
     height: 600px;
     text-align: center;
@@ -127,7 +126,6 @@ body {
     background: /* overlay effect achieved with gradient */
     linear-gradient( rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
-    /* bottom, image */
     url("../images/Iceland/ice3.jpg");
     height: 600px;
     text-align: center;
@@ -579,10 +577,6 @@ button[type="info"] {
 }
 
 
-/*-----------------------------------Travel Stories*/
-
-/*-----------------------------------Resources*/
-
 /*-----------------------------------Footer styles */
 
 footer {
@@ -633,10 +627,3 @@ footer {
 
 }
 
-
-/*@media only screen and (max-width: 600px) {
-    .navbar {
-        padding: 1.5rem 1rem;
-    }
-}
-*/
