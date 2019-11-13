@@ -23,37 +23,29 @@ body {
 .ui-destination-ireland {
     background: linear-gradient( rgba(0, 0, 0, 0.2),
     rgba(0, 0, 0, 0.2)),
-    url("../images/homepage/irelandhomepage.jpg");
-    text-align: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    url("../images/homepage/iredeshome.jpg");
 }
+
 
 .ui-destination-morocco {
     background: linear-gradient( rgba(0, 0, 0, 0.2),
     rgba(0, 0, 0, 0.2)),
-    url("../images/homepage/moroccohome.jpg");
-    text-align: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    url("../images/homepage/mordeshome.jpg");
 }
 
 .ui-destination-iceland {
     background: linear-gradient( rgba(0, 0, 0, 0.2),
     rgba(0, 0, 0, 0.2)),
-    url("../images/homepage/icelandhomepage.jpg");
-    text-align: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    url("../images/homepage/icelanddeshome.jpg");
 }
 
 .ui-destination-croatia {
     background: linear-gradient( rgba(0, 0, 0, 0.2),
     rgba(0, 0, 0, 0.2)),
-    url("../images/homepage/croatiahome.jpg");
+    url("../images/homepage/crodeshome.jpg");
+}
+
+.ui-destination {
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
@@ -64,92 +56,48 @@ body {
 .herohomeimg {
     background: linear-gradient( rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
-    url("../images/homepage/homepagehero.jpg");
-    height: 600px;
-    text-align: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    url("../images/homepage/homehero.jpg");
 }
+
 
 
 .heroaboutmeimg {
     background: linear-gradient( rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
-    url("../images/aboutme/abouthero.jpg");
-    height: 600px;
-    text-align: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    url("../images/aboutme/aboutmehero.jpg");
 }
 
 .heroirelandimg {
     background: linear-gradient( rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
-    url("../images/ireland/irelanddestination.jpg");
-    height: 600px;
-    text-align: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    url("../images/ireland/irehero.jpg");
 }
 
 .heromorimg {
     background: linear-gradient( rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
-    url("../images/morocco/moroccodestination.jpg");
-    height: 600px;
-    text-align: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    url("../images/morocco/morhero.jpg");
 }
 
 .heroiceimg {
     background: linear-gradient( rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
-    url("../images/iceland/icelanddestinationpage.jpg");
-    height: 600px;
-    text-align: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    url("../images/iceland/icelandhero.jpg");
 }
 
 .herocroimg {
     background: linear-gradient( rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
-    url("../images/croatia/croatiadestinationpage.jpg");
-    height: 600px;
-    text-align: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    url("../images/croatia/crohero.jpg");
 }
 
 .herotravel {
     background: linear-gradient( rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
-    url("../images/travelstories/travelstories.jpg");
+    url("../images/travelstories/travelhero.jpg");
+}
+
+.hero {
     height: 600px;
     text-align: center;
     background-position: center;
@@ -159,8 +107,6 @@ body {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
-
-
 
 
 /*-----------------------------------Special paddings/margins/text - General CSS area used more than once through out the site */
