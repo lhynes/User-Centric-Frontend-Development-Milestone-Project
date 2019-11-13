@@ -90,7 +90,7 @@ In the future I would like the featured travel story to by populated dynamicaly 
 I would also like to find the optimal way to share images on the site as they are such a key part of travel websites. 
 
 
-## Testing To be completed
+## Testing
 
 As part of my testing I reviewed the user stories I had set out in the UX sections above. 
 The visitor to the site can review the destinations I've explored, see images related to them and find out key information points on each. 
