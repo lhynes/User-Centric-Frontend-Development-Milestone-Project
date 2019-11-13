@@ -203,7 +203,7 @@ To cut ties with this GitHub repository, type `git remote rm origin` into the te
 ### Acknowledgements
 
 - Tinted overlay for image -[site](https://css-tricks.com/tinted-images-multiple-backgrounds/)
-
+- For the bootstrap elements I leverged the [bootstrap documentation site](https://getbootstrap.com/docs/4.3/utilities/)
 
 ### Inspiration
 
