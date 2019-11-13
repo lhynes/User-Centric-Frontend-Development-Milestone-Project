@@ -157,11 +157,8 @@ I'm still not 100% happy with the load time speed so this is something I will co
 
 **CSS Duplication**
 
-I noticed I had CSS duplication for my hero images and four destination images. 
-I tried to break this into two classes. One class for the css relevant to each 
-image and one individual classes for the images. However I wasn't quite able to 
-get this updated and working prior to  submission but it is something I will review.  
-
+To remove CSS duplication for my hero images and four destination images I added an extra class to remove the duplicated css. 
+ 
 
 
 ## Deployment
@@ -203,6 +200,14 @@ To cut ties with this GitHub repository, type `git remote rm origin` into the te
     - [Santorini](https://hostelgeeks.com/49-santorini-photos-pictures/)
     - [Andora](https://hostelgeeks.com/tarter-mountain-hostel-andorra-5starhostel/)
 
+### Acknowledgements
+
+- Tinted overlay for image -[site](https://css-tricks.com/tinted-images-multiple-backgrounds/)
+
+
 ### Inspiration
 
 - I received inspiration for this project from my personal travels and passion to explore more and connect with other people. 
+
+
+**This site is for educational use.** 
