@@ -25,12 +25,14 @@ As a travel fan and adventure seeker I want to learn more about travelling to co
 
 As a female explorer I want to learn about someone elses travel story and share my own. 
 
+As a social media enthusiast I want to be able to follow the jouney on the site and via social media channels.
+
 
 **Site owner's goals:**
 
 As a site owner I want to share my experience with people and hear about other travel adventures from peoples 
 
-As a social person I want to connect with new people and share knowledge
+As a social person I want to connect with new people and share knowledge. 
 
 
 ### Strategy
@@ -85,33 +87,25 @@ This site currently contains the following features:
 
 In the future I would like the featured travel story to by populated dynamicaly from the collection of stories submitted via the website. 
 
+I would also like to find the optimal way to share images on the site as they are such a key part of travel websites. 
+
 
 ## Testing To be completed
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. 
-Essentially, in this part you will want to go over all of your user stories from the UX section and ensure 
-that they all work as intended, with the project providing an easy and 
-straightforward way for the users to achieve their goals.
+As part of my testing I reviewed the user stories I had set out in the UX sections above. 
+The visitor to the site can review the destinations I've explored, see images related to them and find out key information points on each. 
+The about me section offers the site visitor to find out about my passion for travel and the provides the option to the reader to ask me a question. 
+Using the social media links in the footer they can also follow me on my journey
 
+As the site owner I can share my information with the public on my favourite destinations, I can review stories from different people and I can start connecting with like minded people. 
 
-My user stories 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+**Site Responsiveness**
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+To ensure compatibility and responsiveness I tested the site on multiple browsers and devices. 
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- **Browsers:**Chrome, Safari,FireFox
 
-
-**Responsiveness TO BE COMPLETED**
-
-
-In addition, you should mention in this section how your project
-looks and works on different browsers and screen sizes.
-
-This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 4, 5, 7: Chrome and Safari, iPad, Samsung Galaxy) to ensure compatibility and responsiveness. During the testing phase, I realized that ```background-attachment: fixed``` was not compatible with iOS browsers. On Chrome and Safari in iOS, the background photos appeared zoomed-in and blurry. To fix this, the ```background-attachment: scroll``` property value was added in a media query.
-
-
-
+- **Devices:** In addition to testing responsivness with chrome inspector emulator tool I also asked people to test on four different devices: desktop, Samsung Galaxy, Google pixel 2 and Iphone10. 
 
 
 **Contact Form**
@@ -143,11 +137,34 @@ All links have been manually tested to ensure that none of them are broken and t
 
 All images have an assigned "alt" test attributed to them. 
 
-**Bugs and  problems**
-- large high quality images used an [online image compressor](https://compressjpeg.com/)) to compress images and enhance loading time. 
+**Code**
+
+All HTML and CSS code was testing using the following code validators and returned without any errors
+- [HTML](https://validator.w3.org/)
+- [CSS](https://jigsaw.w3.org/css-validator/)
+
+### Bugs and  problems
+
+**Bootstrap**
+
+I ran into some issue with the bootstrap framework but after some investigation and documentation reading all was resolved. 
+
+
+**Images**
+
+At first I was using high quality images that were very large in file size so I used an [online image compressor](https://compressjpeg.com/)) to compress images to enhance loading time. 
+I'm still not 100% happy with the load time speed so this is something I will continue to work on. 
+
+**CSS Duplication**
+
+I noticed I had CSS duplication for my hero images and four destination images. 
+I tried to break this into two classes. One class for the css relevant to each 
+image and one individual classes for the images. However I wasn't quite able to 
+get this updated and working prior to  submission but it is something I will review.  
+
+
 
 ## Deployment
-
 
 This site is hosted using **GitHub pages** and deployed directly from the master branch.
 To set up GitHub pages check out the following steps: 
@@ -172,6 +189,7 @@ To cut ties with this GitHub repository, type `git remote rm origin` into the te
 
 ### Content
 - The text for the featured story content on the homepage was copied  [Hostel Geeks](https://hostelgeeks.com/machu-picchus-gigantic-aura-reminder-travel/)
+- The Lorem Ipsum test was generatore from [this site](https://loremipsum.io/)
 
 
 ### Media
